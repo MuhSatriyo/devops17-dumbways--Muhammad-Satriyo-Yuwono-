@@ -48,7 +48,24 @@ Kemudian untuk perintah 'ssh' tersebut di sesuaikan dengan nama server kita dan 
    ![alt text](https://github.com/MuhSatriyo/devops17-dumbways--Muhammad-Satriyo-Yuwono-/blob/main/Second%20Week/Image/A11.png?raw=true)
 
    ![alt text](https://github.com/MuhSatriyo/devops17-dumbways--Muhammad-Satriyo-Yuwono-/blob/main/Second%20Week/Image/A12.png?raw=true)
-   
+
+8. Setelah 3 file telah di buat maka kita akan membuat 2 branch dengan nama staging dan production dengan command (git branch 'nama branch') dan dapat kita cek dengan command (git branch -a).
+
+   ![alt text](https://github.com/MuhSatriyo/devops17-dumbways--Muhammad-Satriyo-Yuwono-/blob/main/Second%20Week/Image/A13.png?raw=true)
+
+9. Kemudian kita akan mengedit file index.py dan kita pindah ke branch production terlebih dahulu dengan command (git checkout production) lalu pastikan dengan command (git branch -a) lalu kita edit file index.py (nano indec.py) setelah itu tambahkan file index.py dengan command (git add index.py) lalu cek statusnya (git status).
+
+   ![alt text](https://github.com/MuhSatriyo/devops17-dumbways--Muhammad-Satriyo-Yuwono-/blob/main/Second%20Week/Image/A14.png?raw=true)
+
+10. Setelah itu kita commit file yang sudah kita edit tersebut dengan command (git commit -m "production commit"). Lalu kita push semua branch agar terupload di account github kita dengan command (git push --all). Selanjutnya kita merge file dari branch production ke branch master dengan pindah ke branch master terlebih dahulu dengan command (git checkout master) lalu jalankan command (git merge production).
+
+11. Terakhir kita refresh github kita yang berada di browser dan kita dapat mengecek terdapat 2 branch dan 3 file baru serta terdapat perubahan pada file index.py
+
+    ![alt text](https://github.com/MuhSatriyo/devops17-dumbways--Muhammad-Satriyo-Yuwono-/blob/main/Second%20Week/Image/A17.png?raw=true)
+
+    ![alt text](https://github.com/MuhSatriyo/devops17-dumbways--Muhammad-Satriyo-Yuwono-/blob/main/Second%20Week/Image/A16.png?raw=true)
+
+    ![alt text](https://github.com/MuhSatriyo/devops17-dumbways--Muhammad-Satriyo-Yuwono-/blob/main/Second%20Week/Image/A18.png?raw=true)
 
 ### Berikan 3 Command Git Yang Belum Dijelaskan
 1. git config --list = Untuk mengecek configurasi apa saja yang sudah kita inputkan di git.
