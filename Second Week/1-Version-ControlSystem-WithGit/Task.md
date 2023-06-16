@@ -5,7 +5,11 @@ Berdasarkan penjelasan dari 'verion control' itu sendiri adalah sebuah sistem ya
 Maka arti dari 'Distributed Version Control' adalah proses monitoring perubahan perubahan dari suatu berkas penyimpanan yang dapat di monitoring oleh setiap orang yang diberikan izin untuk mengolah penyimpanan tersebut.
 
 ### Buat Repository Sederhana Yang Berisi 3 File Berbeda
-Proses membuat repository di sini saya sarankan untuk menyambungkan ubuntu kita ke windows poweshall menggunakan ssh, dengan cara mengetikkan "ssh satriyo@192.168.10.35". Kemudian kita mengatur konfigurasi global akun github kita dengan memasukkan username dan email github kita menggunakan command.
+Proses membuat repository di sini saya sarankan untuk menyambungkan ubuntu kita ke windows poweshall menggunakan ssh, dengan cara mengetikkan "ssh satriyo@192.168.50.35". 
+
+   ![alt text](https://github.com/MuhSatriyo/devops17-dumbways--Muhammad-Satriyo-Yuwono-/blob/main/Second%20Week/Image/M6.png?raw=true)
+
+Kemudian kita mengatur konfigurasi global akun github kita dengan memasukkan username dan email github kita menggunakan command.
 -git config --global user.name "MuhSatriyo"
 -git config --global user.email "muhamadsatriyo05@gmail.com"
 jika sudah di inputkan, maka dapat kita lihat username dan email kita dengan mengetikkan "git config --list".
