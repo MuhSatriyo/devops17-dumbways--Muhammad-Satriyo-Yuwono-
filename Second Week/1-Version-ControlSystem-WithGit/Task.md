@@ -31,7 +31,24 @@ Kemudian untuk perintah 'ssh' tersebut di sesuaikan dengan nama server kita dan 
 
    ![alt text](https://github.com/MuhSatriyo/devops17-dumbways--Muhammad-Satriyo-Yuwono-/blob/main/Second%20Week/Image/A5.png?raw=true)
 
-5. Jika berhasil kita koneksikan maka kita akan membuat repository yang ada pada file lokal dan berlokasi di folder .git dengan command "git init <nama reposirtory kita>
+5. Jika berhasil kita koneksikan maka kita akan membuat repository yang ada pada file lokal dan berlokasi di folder .git dengan command (git init 'nama reposirtory kita'). Kemudian kita cek list configurasi yang sebelumnya kita buat yang ber-isikan username dan email.
+
+   ![alt text](https://github.com/MuhSatriyo/devops17-dumbways--Muhammad-Satriyo-Yuwono-/blob/main/Second%20Week/Image/A6.png?raw=true)
+
+   ![alt text](https://github.com/MuhSatriyo/devops17-dumbways--Muhammad-Satriyo-Yuwono-/blob/main/Second%20Week/Image/A7.png?raw=true)
+
+6. Selanjutnya kita add 3 file yang ingin kita buat dengan command (git add 'namafile' 'namafile' 'namafile') lalu kita cek statusnya sudah ditambahkan atau belum dengan command "git status". Setelah sudah berhasil di tambahkan maka kita lakukan commit pada 3 file tersebut dengan command (git commit -m "comment terserah")
+
+   ![alt text](https://github.com/MuhSatriyo/devops17-dumbways--Muhammad-Satriyo-Yuwono-/blob/main/Second%20Week/Image/A9.png?raw=true)
+
+   ![alt text](https://github.com/MuhSatriyo/devops17-dumbways--Muhammad-Satriyo-Yuwono-/blob/main/Second%20Week/Image/A10.png?raw=true)
+
+7. Kemudian kita lakukan gitu push origin master untuk mengupload file ke github account kita. Lalu kita refresh web github kita maka 3 file tersebut sudah ada di github account kita.
+
+   ![alt text](https://github.com/MuhSatriyo/devops17-dumbways--Muhammad-Satriyo-Yuwono-/blob/main/Second%20Week/Image/A11.png?raw=true)
+
+   ![alt text](https://github.com/MuhSatriyo/devops17-dumbways--Muhammad-Satriyo-Yuwono-/blob/main/Second%20Week/Image/A12.png?raw=true)
+   
 
 ### Berikan 3 Command Git Yang Belum Dijelaskan
 1. git config --list = Untuk mengecek configurasi apa saja yang sudah kita inputkan di git.
