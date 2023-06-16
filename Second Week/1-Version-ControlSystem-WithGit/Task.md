@@ -57,7 +57,7 @@ Kemudian untuk perintah 'ssh' tersebut di sesuaikan dengan nama server kita dan 
 
    ![alt text](https://github.com/MuhSatriyo/devops17-dumbways--Muhammad-Satriyo-Yuwono-/blob/main/Second%20Week/Image/A14.png?raw=true)
 
-10. Setelah itu kita commit file yang sudah kita edit tersebut dengan command (git commit -m "production commit"). Lalu kita push semua branch agar terupload di account github kita dengan command (git push --all). Selanjutnya kita merge file dari branch production ke branch master dengan pindah ke branch master terlebih dahulu dengan command (git checkout master) lalu jalankan command (git merge production).
+10. Setelah itu kita commit file yang sudah kita edit tersebut dengan command (git commit -m "production commit"). Lalu kita push semua branch agar terupload di account github kita dengan command (git push --all). Selanjutnya kita merge file dari branch production ke branch master dengan pindah ke branch master terlebih dahulu dengan command (git checkout master) lalu jalankan command (git merge production). *Maaf kak ade untuk langkah ini saya lupa screenshoot heheheh :D
 
 11. Terakhir kita refresh github kita yang berada di browser dan kita dapat mengecek terdapat 2 branch dan 3 file baru serta terdapat perubahan pada file index.py
 
