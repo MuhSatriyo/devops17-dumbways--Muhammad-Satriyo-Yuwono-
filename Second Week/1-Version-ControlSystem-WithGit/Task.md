@@ -1,13 +1,39 @@
 ## Version Control System With Git
 
-### 1. Penjelasan Tentang Distributed Version Control
+### Penjelasan Tentang Distributed Version Control
 Berdasarkan penjelasan dari 'verion control' itu sendiri adalah sebuah sistem yang merekam perubahan-perubahan dari sebuah berkas penyimpanan dari waktu ke waktu sehingga Anda dapat menilik kembali versi khusus suatu saat nanti. Lalu 'distributed' itu sendiri artinya terdistribusi atau secara sederhana pembagian atau penyaluran.
 Maka arti dari 'Distributed Version Control' adalah proses monitoring perubahan perubahan dari suatu berkas penyimpanan yang dapat di monitoring oleh setiap orang yang diberikan izin untuk mengolah penyimpanan tersebut.
 
-### 2. Buat Repository Sederhana Yang Berisi 3 File Berbeda
-Proses membuat repository 
+### Buat Repository Sederhana Yang Berisi 3 File Berbeda
+Proses membuat repository di sini saya sarankan untuk menyambungkan ubuntu kita ke windows poweshall menggunakan ssh, dengan cara mengetikkan "ssh satriyo@192.168.10.35". Kemudian kita mengatur konfigurasi global akun github kita dengan memasukkan username dan email github kita menggunakan command.
+-git config --global user.name "MuhSatriyo"
+-git config --global user.email "muhamadsatriyo05@gmail.com"
+jika sudah di inputkan, maka dapat kita lihat username dan email kita dengan mengetikkan "git config --list".
+Kemudian untuk perintah 'ssh' tersebut di sesuaikan dengan nama server kita dan ip address kita. Setelah itu kita lanjut ke langkah berikutnya:
 
-### 3. Berikan 3 Command Git Yang Belum Dijelaskan
+1. Kita harus melakukan aktivasi pada github kita terlebih dahulu menggunakan terminal dengan cara mengatus 'ssh key' nya terlebih dahulu. Caranya yaitu kita ketik command "ssh-keygen".
+
+   ![alt text](https://github.com/MuhSatriyo/devops17-dumbways--Muhammad-Satriyo-Yuwono-/blob/main/Second%20Week/Image/A2.png?raw=true)
+
+2. Membuat folder '.ssh' kemudian masuk ke dalam folder '.ssh'nya. Lalu kita cek di dalam folder '.ssh' tersebut terdapat file apa saja.
+
+   ![alt text](https://github.com/MuhSatriyo/devops17-dumbways--Muhammad-Satriyo-Yuwono-/blob/main/Second%20Week/Image/A3.png?raw=true)
+
+   Keterangan file:
+   id_rsa = Merupakan key yang berguna untuk mengakses private key.
+   id_rsa.pub = Merupakan key yang berguna untuk mengakses public key.
+
+3. Setelah kita mendapatkan key nya maka kita copykan ke dalam SSH Key Github kita, dengan cara buka pengaturan account github kita lalu pilih new SSH Key.
+
+   ![alt text](https://github.com/MuhSatriyo/devops17-dumbways--Muhammad-Satriyo-Yuwono-/blob/main/Second%20Week/Image/A4.png?raw=true)
+
+4. Selanjutnya kita cek apakah SSH sudah berhasil terkoneksi dengan command "ssh -T git@github.com". (Hi 'username'! You've successfully authenticated) seperti gambar berikut:
+
+   ![alt text](https://github.com/MuhSatriyo/devops17-dumbways--Muhammad-Satriyo-Yuwono-/blob/main/Second%20Week/Image/A5.png?raw=true)
+
+5. Jika berhasil kita koneksikan maka kita akan membuat repository yang ada pada file lokal dan berlokasi di folder .git dengan command "git init <nama reposirtory kita>
+
+### Berikan 3 Command Git Yang Belum Dijelaskan
 1. git config --list = Untuk mengecek configurasi apa saja yang sudah kita inputkan di git.
 2. git config --global --edit = Untuk mengedit configurasi atau menghapus configurasi yang tidak kita inginkan, seperti kita mau berganti email dan username github.
 3. git log = Untuk mengecek perubahan apa saja yang terjadi pada repository git kita.
