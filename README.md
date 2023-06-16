@@ -8,3 +8,14 @@ This is preview day by day at the first week, start from day 1 until day 3:
 ### Day 2 Basic Sheel and Computer Networking
 
 ### Day 3 Application in Server
+
+### Day 4 Exam (Make a video preview about what we get until one week Of learning)
+
+# Second Week
+### Day 1 Version Control System With Git
+
+### Day 2 Manage Server With Terminal
+
+### Day 3 Web Server and Load Balancing
+
+### Day 4 Exam (Make a video preview about what we get until one week Of learning)
